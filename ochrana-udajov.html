@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochrana osobných údajov | Computrax.sk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #0b0f1a; --accent: #3b82f6; --text: #f1f5f9; --muted: #94a3b8; --border: rgba(255,255,255,0.08); --glass: rgba(255,255,255,0.03); }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+        nav { position: fixed; top: 0; width: 100%; z-index: 100; padding: 1.2rem 8%; display: flex; justify-content: space-between; align-items: center; background: rgba(11,15,26,0.9); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+        .logo { font-family: 'Outfit'; font-weight: 900; font-size: 1.6rem; color: white; text-decoration: none; }
+        .logo span { color: var(--accent); }
+        .back-btn { color: var(--muted); text-decoration: none; font-size: 0.9rem; transition: 0.2s; }
+        .back-btn:hover { color: var(--accent); }
+        .container { max-width: 860px; margin: 0 auto; padding: 8rem 2rem 6rem; }
+        .page-header { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+        .page-label { color: var(--accent); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.8rem; }
+        h1 { font-family: 'Outfit'; font-size: 2.8rem; font-weight: 900; margin-bottom: 0.5rem; }
+        .updated { color: var(--muted); font-size: 0.88rem; }
+        .legal-nav { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 3rem; padding: 1.5rem; background: var(--glass); border: 1px solid var(--border); border-radius: 16px; }
+        .legal-nav a { color: var(--muted); text-decoration: none; font-size: 0.88rem; padding: 0.4rem 1rem; border-radius: 8px; transition: 0.2s; border: 1px solid transparent; }
+        .legal-nav a:hover { color: var(--accent); border-color: var(--accent); }
+        .legal-nav a.active { color: var(--accent); border-color: var(--accent); background: rgba(59,130,246,0.1); }
+        h2 { font-family: 'Outfit'; font-size: 1.5rem; font-weight: 700; margin: 2.5rem 0 1rem; color: var(--accent); }
+        h3 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+        p { color: var(--muted); margin-bottom: 1rem; font-size: 0.95rem; }
+        ul, ol { color: var(--muted); margin: 0.5rem 0 1rem 1.5rem; font-size: 0.95rem; }
+        li { margin-bottom: 0.4rem; }
+        .highlight-box { background: rgba(59,130,246,0.07); border: 1px solid rgba(59,130,246,0.2); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+        .highlight-box p { margin: 0; color: var(--text); }
+        table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: 0.9rem; }
+        th { background: rgba(59,130,246,0.1); color: var(--accent); padding: 0.8rem 1rem; text-align: left; font-weight: 600; }
+        td { padding: 0.8rem 1rem; border-bottom: 1px solid var(--border); color: var(--muted); vertical-align: top; }
+        footer { text-align: center; padding: 3rem 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+        @media (max-width: 600px) { h1 { font-size: 2rem; } .container { padding: 7rem 1.5rem 4rem; } }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="index.html" class="logo">Compu<span>trax</span></a>
+    <a href="index.html" class="back-btn">← Späť na hlavnú stránku</a>
+</nav>
+
+<div class="container">
+    <div class="page-header">
+        <div class="page-label">Právne dokumenty</div>
+        <h1>Ochrana osobných údajov</h1>
+        <p class="updated">Posledná aktualizácia: 27. mája 2026 · V súlade s nariadením GDPR (EÚ) 2016/679</p>
+    </div>
+
+    <div class="legal-nav">
+        <a href="obchodne-podmienky.html">Obchodné podmienky</a>
+        <a href="ochrana-udajov.html" class="active">Ochrana údajov</a>
+        <a href="reklamacny-poriadok.html">Reklamačný poriadok</a>
+        <a href="cookies.html">Cookies</a>
+    </div>
+
+    <div class="highlight-box">
+        <p>Prevádzkovateľ: <strong>Computrax.sk</strong> | Email: computerax.sk@gmail.com | Tel: 0949 835 923 | IČO: [DOPLNIŤ] | Adresa: [DOPLNIŤ]</p>
+    </div>
+
+    <h2>1. Kto sme a prečo spracúvame vaše údaje</h2>
+    <p>Computrax.sk je prevádzkovateľom vašich osobných údajov v zmysle článku 4 nariadenia GDPR. Vaše osobné údaje spracúvame výlučne za účelom vybavenia objednávky, odpovede na vašu správu a plnenia zákonných povinností.</p>
+    <p>Nikdy nepredávame, neprenajímame ani inak neodovzdávame vaše osobné údaje tretím stranám na marketingové účely bez vášho výslovného súhlasu.</p>
+
+    <h2>2. Aké údaje zbierame</h2>
+    <table>
+        <tr><th>Kategória údajov</th><th>Konkrétne údaje</th><th>Účel</th></tr>
+        <tr><td>Identifikačné údaje</td><td>Meno, priezvisko</td><td>Vybavenie objednávky</td></tr>
+        <tr><td>Kontaktné údaje</td><td>E-mail, telefón</td><td>Komunikácia, potvrdenie objednávky</td></tr>
+        <tr><td>Adresné údaje</td><td>Ulica, mesto, PSČ</td><td>Doručenie tovaru</td></tr>
+        <tr><td>Transakčné údaje</td><td>Objednané produkty, suma, dátum</td><td>Fakturácia, účtovníctvo</td></tr>
+    </table>
+
+    <h2>3. Právny základ spracúvania</h2>
+    <p>Vaše osobné údaje spracúvame na základe:</p>
+    <ul>
+        <li><strong>Plnenie zmluvy</strong> (čl. 6 ods. 1 písm. b) GDPR) — spracúvanie potrebné na vybavenie objednávky</li>
+        <li><strong>Plnenie zákonnej povinnosti</strong> (čl. 6 ods. 1 písm. c) GDPR) — uchovávanie účtovných dokladov podľa zákona</li>
+        <li><strong>Oprávnený záujem</strong> (čl. 6 ods. 1 písm. f) GDPR) — ochrana pred podvodmi a bezpečnosť</li>
+    </ul>
+
+    <h2>4. Ako dlho uchovávame vaše údaje</h2>
+    <table>
+        <tr><th>Typ údajov</th><th>Doba uchovávania</th></tr>
+        <tr><td>Údaje z objednávky</td><td>10 rokov (zákonná povinnosť — zákon o účtovníctve)</td></tr>
+        <tr><td>Kontaktné správy (formulár)</td><td>2 roky od poslednej komunikácie</td></tr>
+        <tr><td>Reklamačné údaje</td><td>5 rokov od vybavenia reklamácie</td></tr>
+    </table>
+
+    <h2>5. Komu poskytujeme vaše údaje</h2>
+    <p>Vaše osobné údaje môžeme zdieľať výlučne s nasledujúcimi kategóriami príjemcov:</p>
+    <ul>
+        <li><strong>Dopravné spoločnosti</strong> (GLS, Packeta) — výlučne za účelom doručenia tovaru</li>
+        <li><strong>EmailJS</strong> — spracovateľ e-mailovej komunikácie (USA, štandard SCC)</li>
+        <li><strong>Orgány verejnej moci</strong> — len na základe zákonnej povinnosti (napr. daňový úrad)</li>
+    </ul>
+    <p>So všetkými spracovateľmi máme uzatvorené zmluvy o spracúvaní osobných údajov.</p>
+
+    <h2>6. Vaše práva podľa GDPR</h2>
+    <p>Ako dotknutá osoba máte nasledujúce práva, ktoré môžete uplatniť zaslaním e-mailu na computerax.sk@gmail.com:</p>
+    <ul>
+        <li><strong>Právo na prístup</strong> — máte právo vedieť, aké údaje o vás spracúvame</li>
+        <li><strong>Právo na opravu</strong> — máte právo na opravu nesprávnych alebo neúplných údajov</li>
+        <li><strong>Právo na vymazanie</strong> — máte právo požiadať o vymazanie vašich údajov (ak nie sme povinní ich uchovávať)</li>
+        <li><strong>Právo na obmedzenie spracúvania</strong> — máte právo požiadať o dočasné obmedzenie spracúvania</li>
+        <li><strong>Právo na prenosnosť</strong> — máte právo získať vaše údaje v štruktúrovanom formáte</li>
+        <li><strong>Právo namietať</strong> — máte právo namietať proti spracúvaniu na základe oprávneného záujmu</li>
+        <li><strong>Právo podať sťažnosť</strong> — máte právo podať sťažnosť na Úrad na ochranu osobných údajov SR (dataprotection.gov.sk)</li>
+    </ul>
+    <p>Na vašu žiadosť odpovieme do 30 dní od jej doručenia.</p>
+
+    <h2>7. Prenosy do tretích krajín</h2>
+    <p>Využívame službu EmailJS, ktorej servery sa môžu nachádzať mimo EÚ/EHP. Prenos je zabezpečený prostredníctvom štandardných zmluvných doložiek (SCC) schválených Európskou komisiou.</p>
+
+    <h2>8. Bezpečnosť údajov</h2>
+    <p>Prijali sme primerané technické a organizačné opatrenia na ochranu vašich osobných údajov pred neoprávneným prístupom, stratou alebo zneužitím, vrátane šifrovaného prenosu (HTTPS) a obmedzeného prístupu k údajom.</p>
+
+    <h2>9. Zmeny tohto dokumentu</h2>
+    <p>Tento dokument môžeme príležitostne aktualizovať. O podstatných zmenách vás informujeme e-mailom alebo oznámením na webstránke. Odporúčame pravidelne kontrolovať aktuálnu verziu.</p>
+
+    <h2>10. Kontakt</h2>
+    <p>Ak máte akékoľvek otázky týkajúce sa spracúvania vašich osobných údajov, kontaktujte nás:</p>
+    <p>📧 computerax.sk@gmail.com<br>📞 0949 835 923</p>
+</div>
+
+<footer>&copy; 2026 Computrax.sk | <a href="obchodne-podmienky.html" style="color: var(--accent);">Obchodné podmienky</a> · <a href="ochrana-udajov.html" style="color: var(--accent);">Ochrana údajov</a> · <a href="reklamacny-poriadok.html" style="color: var(--accent);">Reklamačný poriadok</a> · <a href="cookies.html" style="color: var(--accent);">Cookies</a></footer>
+</body>
+</html>
